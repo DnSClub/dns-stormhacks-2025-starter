@@ -20,7 +20,7 @@ const Home = () => {
         <Hero />
         {/* <div id="card"><ThreeDCardDemo /></div> */}
         {/* <div id="chat"><Chat /></div> */}
-        <div id="info"><Info /></div>
+        {/* <div id="info"><Info /></div> */}
         <Footer />
       </div>
     </main>
