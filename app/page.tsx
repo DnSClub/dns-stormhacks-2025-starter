@@ -18,9 +18,7 @@ const Home = () => {
           { name: "Contact", link: "#contact" },
         ]} />
         <Hero />
-        {/* <div id="card"><ThreeDCardDemo /></div> */}
-        {/* <div id="chat"><Chat /></div> */}
-        {/* <div id="info"><Info /></div> */}
+        
         <Footer />
       </div>
     </main>
