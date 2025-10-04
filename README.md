@@ -1,4 +1,4 @@
-# ⚡ Hack Ready Web Dev Workshop Starter (Next.js)
+# ⚡ Hack Ready Web Dev Workshop Starter Repo
 
 ## 🧰 Prerequisites
 
@@ -18,7 +18,7 @@ Please install and set up before the workshop:
 
 ```bash
 git clone https://github.com/YOUR_USERNAME/hack-ready-workshop-starter.git
-cd hack-ready-workshop-starter
+cd dns-stormhacks-2025-starter
 ```
 
 ### 2. Use Node.js 18
@@ -43,15 +43,13 @@ Copy the contents from `.env.dev` into `.env.local` using:
 cp .env.dev .env.local
 ```
 
-Open `.env.local` and replace the placeholder values with your actual keys:
+Open `.env.local` and replace the placeholder values with your actual key:
 
 ```env
 GOOGLE_GENERATIVE_AI_API_KEY=your-google-api-key-here
 ```
 
-**Note:** Your Google API key can be generated at: [Google AI Studio](https://aistudio.google.com/)
-
-**Important:** All environment variables must start with `NEXT_PUBLIC_` for Next.js to expose them to the frontend.
+**Note:** Your Google API key can be generated at: [Google AI Studio](https://aistudio.google.com/app/apikey)
 
 ## ▶️ Run the Development Server
 
@@ -67,36 +65,23 @@ Visit [http://localhost:3000](http://localhost:3000) in your browser.
 
 ## 🎨 Adding UI Components
 
-We’ll use [shadcn/ui](https://ui.shadcn.com/) to quickly build components.
+We’ll use [Aceternity UI](https://ui.aceternity.com/) and [shadcn/ui](https://ui.shadcn.com/) to quickly build components.
 
-### 1. Install shadcn/ui
+### Aceternity UI Components
 
-```bash
-npx shadcn-ui@latest init
-```
+[Border Magic Button](https://ui.aceternity.com/components/tailwindcss-buttons)
 
-Follow the prompts (choose Next.js).
+[3D Card Effect](https://ui.aceternity.com/components/3d-card-effect)
 
-### 2. Add a Button Component
+[Canvas Reveal Effect](https://ui.aceternity.com/components/canvas-reveal-effect)
 
-```bash
-npx shadcn-ui@latest add button
-```
+### shadcn/ui Components
 
-Example usage in app/page.tsx:
+[Button](https://ui.shadcn.com/docs/components/button)
 
-```bash
-import { Button } from "@/components/ui/button"
+[Card](https://ui.shadcn.com/docs/components/card)
 
-export default function Home() {
-  return (
-    <main className="p-6">
-      <h1 className="text-2xl font-bold mb-4">Hack Ready Workshop</h1>
-      <Button>Click me</Button>
-    </main>
-  )
-}
-```
+[Input](https://ui.shadcn.com/docs/components/input)
 
 ---
 
